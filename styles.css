@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(128, 0, 0);
+ }  
+
+ h1 { 
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    text-transform:uppercase;
+ }
+
+ h2 {
+    color: white;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+ }
+
+ p{
+    color: white;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+ }
+
+ img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+ }
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: rgb(179, 0, 0);
+   position: sticky;
+ }
+
+ li {
+   float: left;
+ }
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Press Start 2P', monospace;
+ }
+
+li a:hover {
+   background-color: rgb(153, 0, 0);
+}
+
+table {
+   color: white;
+   font-family: "Ubuntu Mono", monospace;
+   width: 90%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+th {
+   background-color: white;
+   color: rgb(153, 0, 0);
+   font-size: larger;
+   text-transform: uppercase;
+}
+
+th, td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid white;
+}
+
+td {
+   font-size: large;
+}
